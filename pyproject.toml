@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-wafris"
+version = "0.1.0"
+description = "Django Wafris"
+authors = ["Turkalp Burak Kayrancioglu <bkayranci@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+redis = "^5.1.0"
+Django = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
